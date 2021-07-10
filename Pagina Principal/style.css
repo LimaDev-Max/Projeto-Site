@@ -56,18 +56,31 @@ li:hover, h1:hover, button:hover{
     background-color: rgba(255, 255, 255, 0.2);
 } 
 
+button:focus ~ ul {
+    height: 250px;
+}
+
 @media (max-width: 700px) {
     main, ul {
         flex-direction: column;
     } 
     ul {
         text-align: center;
+        margin: 0;
+        height: 0;
     }
     main {
-        padding: 10px;
+        padding: 0;
         align-items: flex-start;
+    }
+    h1 {
+        margin-left: 10px;
+        margin-top: 10px;
     }
     button {
         display: flex;
+    }
+    li, ul {
+        width: 100%;
     }
 }
