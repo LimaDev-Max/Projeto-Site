@@ -5,6 +5,17 @@ body {
     background-color: aqua;
 }
 
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: skyblue;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -54,12 +65,12 @@ li:hover,
 h1:hover,
 button:hover {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 button:focus~ul {
-    height: 260px;
+    height: 195px;
 }
 
 @media (max-width: 2000px) {
