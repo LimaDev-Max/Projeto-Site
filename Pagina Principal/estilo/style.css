@@ -1,0 +1,298 @@
+@charset'UTF-8';
+
+@font-face {
+    font-family: 'bebas neue';
+    src: url('/fontes/BebasNeue-Regular.otf') format('opentype');
+}
+
+:root {
+    --cor0: #B3BDF2;
+    --cor1: #7E8FF2;
+    --cor2: #576EF2;
+    --cor3: #444DF2;
+    --cor4: #222CF2;
+    --cor5: #1B03A3;
+    --cor6: #010572;
+    --cor7: #00033F;
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
+    --fonte-destaque: 'bebas neue';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 155px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329);
+}
+
+nav {
+    min-width: 300px;
+    max-width: 1020px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--cor5);
+    padding: 10px;
+    margin-bottom: 1px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404);
+    
+}
+
+nav > a {
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor0);
+    color: var(--cor5);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.438);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 1.7em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+    border-radius: 4px;
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor5);
+    font-size: 1,3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+    border-radius: 4px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+    margin: 0;
+    background-color: rgba(4, 185, 185, 0.781);
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+a:hover {
+    color: skyblue;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+nav {
+    background-color: #161616;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,
+p {
+    color: #FFF;
+}
+
+nav,
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+li:hover,
+h1:hover,
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+button:focus~ul {
+    height: 195px;
+}
+
+@media (max-width: 2000px) {
+
+    nav,
+    ul {
+        flex-direction: column;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    nav {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin: 10px;
+    }
+
+    button {
+        display: flex;
+    }
+
+    li,
+    ul {
+        width: 100%;
+    }
+}
+*/
+
