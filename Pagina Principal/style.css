@@ -1,5 +1,76 @@
 @charset'UTF-8';
 
+:root {
+    --cor0: #B3BDF2;
+    --cor1: #7E8FF2;
+    --cor2: #576EF2;
+    --cor3: #444DF2;
+    --cor4: #222CF2;
+    --cor5: #1B03A3;
+    --cor6: #010572;
+    --cor7: #00033F;
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 body {
     margin: 0;
     background-color: rgba(4, 185, 185, 0.781);
@@ -107,93 +178,5 @@ button:focus~ul {
         width: 100%;
     }
 }
+*/
 
-/* {
-    font-family: Arial, Helvetica, sans-serif
-}
-
-body {
-   margin: 0;
-}
-
-main {
-    
-}
-ul {
-   list-style: none;
-   padding: 0;
-   overflow: hidden;
-   transition: .5s;
-}
-
-nav {
-    background-color: black;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h1, p {
-    color: #FFF;
-}
-
-nav, ul {
-    display: flex;
-    flex-direction: row;
-}
-
-li {
-    padding: 0 20px;
-}
-
-h1 {
-
-    margin: 0;
-    padding: 10px;
-}
-
-button {
-    background-color: transparent;
-    border: none;
-    color: #FFF;
-    font-size: 36px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    display: none;
-}
-
-li:hover, h1:hover, button:hover{
-    cursor: pointer;
-    opacity: 0.8;
-    background-color: rgba(255, 255, 255, 0.2);
-} 
-
-button:focus ~ ul {
-    height: 250px;
-}
-
-@media (max-width: 700px) {
-    main, ul {
-        flex-direction: column;
-    } 
-    ul {
-        text-align: center;
-        margin: 0;
-        height: 0;
-    }
-    nav {
-        padding: 0;
-        align-items: flex-start;
-    }
-    h1 {
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-    button {
-        display: flex;
-    }
-    li, ul {
-        width: 100%;
-    }
-}
