@@ -14,6 +14,7 @@
     --cor5: #1B03A3;
     --cor6: #010572;
     --cor7: #00033F;
+    --cor8: #66D8F2;
     
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
     --fonte-destaque: 'bebas neue';
@@ -113,6 +114,10 @@ main p {
     line-height: 1.5em;
 }
 
+article table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+}
 footer {
     background-color: var(--cor5);
     color: white;
