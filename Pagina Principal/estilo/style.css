@@ -114,10 +114,28 @@ main p {
     line-height: 1.5em;
 }
 
-article table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
+div  {
+    text-align: center;
+    background-color: var(--cor8);
+    border-radius: 5px;
 }
+div  table, th, td {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+div th, td {
+    padding: 5px 10px;
+}
+
+div th {
+    background-color: rgb(21, 4, 98);
+    color: white;
+}
+
+
 footer {
     background-color: var(--cor5);
     color: white;
