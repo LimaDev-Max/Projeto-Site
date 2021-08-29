@@ -115,8 +115,7 @@ main p {
 
 div  {
     text-align: center;
-    background-color: var(--cor8);
-    border-radius: 5px;
+    
 }
 div  table, th, td {
     margin: auto;
@@ -130,7 +129,7 @@ div th, td {
 }
 
 div th {
-    background-color: rgb(21, 4, 98);
+    background-color: rgb(90, 65, 199);
     color: white;
 }
 
