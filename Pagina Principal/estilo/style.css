@@ -6,15 +6,14 @@
 }
 
 :root {
-    --cor0: #B3BDF2;
-    --cor1: #7E8FF2;
-    --cor2: #576EF2;
-    --cor3: #444DF2;
-    --cor4: #222CF2;
-    --cor5: #1B03A3;
-    --cor6: #010572;
-    --cor7: #00033F;
-    --cor8: #66D8F2;
+    --cor0: #D5E7F2;
+    --cor1: #9BD1F2;
+    --cor2: #5FA0D9;
+    --cor3: #4A96D9;
+    --cor4: #4A88D9;
+    --cor5: #36ABD9;
+    --cor6: #0477BF;
+    --cor7: #033E8C; 
     
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
     --fonte-destaque: 'bebas neue';
