@@ -30,6 +30,9 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+h2 {
+    margin: 5px 0px 8px 0px;
+}
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 155px;
