@@ -99,52 +99,14 @@ main h1 {
     border-radius: 4px;
 }
 
-main h2 {
-    font-family: var(--fonte-destaque);
-    color: var(--cor5);
-    font-size: 1,3em;
-    font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
-    text-indent: 8px;
-    border-radius: 4px;
-}
-
-main p {
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-div .video {
-    background-color: var(--cor8);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 57%;
-    position: relative;
-}
-
-p {
-    border: 0;
-    font-size: 100%;
-    font-style: inherit;
-    font-weight: inherit;
-    margin: 0;
-    outline: 0;
-    padding: 0;
-    vertical-align: baseline;
-    margin: 1.6em;
-}
-
-h3 {
-    text-align: center;
-}
 
 
-div .img{
-    width: 50%;
-}
+
+
+
+
+
+
 
 div  {
     text-align: center;
